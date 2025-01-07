@@ -66,7 +66,7 @@ public class Main {
 
     }
     
-    private static void aboutUs() {
+    public static void aboutUs() {
         logger.log(Level.INFO, "\u001B[36m------ About Us ------\u001B[0m");
         logger.log(Level.INFO, "\u001B[32mWelcome to the Gym Management System.\n" +
                 "Our goal is to provide an efficient, user-friendly platform for gym clients, instructors, and admins.\n" +
